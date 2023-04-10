@@ -113,7 +113,7 @@
         font-size: 20px;
     }
 
-    .contact-grid-wrapper{
+    .page-container1 .contact-grid-wrapper{
         width: 100%;
         grid-template-columns: 1fr;
         grid-gap: 10px;

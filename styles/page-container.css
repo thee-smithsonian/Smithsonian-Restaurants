@@ -34,3 +34,8 @@
     margin: 10px 35px 20px 0px;
     border: 1px solid #d8a01d;
 }
+
+.page-container1{
+    display: flex;
+    justify-content: center;
+}
