@@ -101,6 +101,17 @@
         order: 1;
     }
 
+    .square > .square-text-wrapper h1{
+        font-size: 26px;
+    }
+
+    .square > .square-text-wrapper > ul > li{
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20px;
+    }
+
     .contact-grid-wrapper{
         width: 100%;
         grid-template-columns: 1fr;
