@@ -1,0 +1,114 @@
+/*common nav styles */
+.nav-wrapper{
+    height: 210px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+/* Left column styles */
+.nav-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+}
+
+.left-column > .contact-hours-wrapper{
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.contact-hours-wrapper > .hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.9em;
+} 
+.contact-hours-wrapper > .phone{
+    font-family: 'Roboto', sans-serif;
+} 
+
+.icon{
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+    color: red;
+}
+/* Right column styles */
+.nav-wrapper > .right-column{
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper > .right-column > .address-wrapper{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.nav-wrapper > .right-column > .address-wrapper a{
+    text-decoration-line: none;
+    color: whitesmoke;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.nav-wrapper > .right-column > .address-wrapper a:hover{
+    color: #cea135;
+}
+
+.nav-wrapper > .right-column > .maps-icon{
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+.nav-wrapper > .right-column > .maps-icon a{
+    color: red;
+    transition: 0.5s;
+}
+
+.nav-wrapper > .right-column > .maps-icon a:hover{
+    color: #cea135;
+}
+/* Center column styles */
+.links-wrapper > .nav-link{
+    width: 70px;
+    text-align: center;
+}
+
+.nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+
+.nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.nav-wrapper > .center-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+    width: 500px;
+}
+
+.nav-wrapper > .center-column > .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
