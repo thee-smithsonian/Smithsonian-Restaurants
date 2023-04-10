@@ -140,6 +140,13 @@
         margin-top: 15px;
     }
 
+    .links-wrapper > .nav-link{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        width: 100%;
+    }
+
     .features-section{
         height: 100%;
     }
