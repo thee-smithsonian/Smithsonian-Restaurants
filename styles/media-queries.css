@@ -13,6 +13,7 @@
     .nav-wrapper > .center-column {
         order: 1;
         width: 100%;
+        align-items: center;
     }
 
     .nav-wrapper > .right-column{
@@ -21,7 +22,7 @@
     }
 
     .hero-section > .top-heading{
-        width: 270px;
+        width: 300px;
     }
 
     .links-wrapper{
