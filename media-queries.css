@@ -13,6 +13,7 @@
     .nav-wrapper > .center-column {
         order: 1;
         width: 100%;
+        align-items: center;
     }
 
     .nav-wrapper > .right-column{
@@ -41,7 +42,7 @@
     }
 
     .hero-section > .top-heading{
-        font-size: 0.7em;
+        font-size: 0.65em;
     }
 
     .hero-section > .bottom-heading{
@@ -112,7 +113,7 @@
         font-size: 20px;
     }
 
-    .contact-grid-wrapper{
+    .page-container1 .contact-grid-wrapper{
         width: 100%;
         grid-template-columns: 1fr;
         grid-gap: 10px;

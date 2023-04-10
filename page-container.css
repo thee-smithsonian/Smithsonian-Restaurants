@@ -1,0 +1,41 @@
+/* Page container styles */
+.page-container{
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper{
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > p{
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.page-container > .content-wrapper > #chef{
+    width: 350px;
+    float: left;
+    margin: 26px 35px 20px 0px;
+    border: 1px solid #d8a01d;
+}
+
+.page-container > .content-wrapper > #chef2{
+    width: 350px;
+    float: right;
+    margin: 10px 0px 20px 20px;
+    border: 1px solid #d8a01d;
+}
+
+.page-container > .content-wrapper > #chef3{
+    width: 350px;
+    float: left;
+    margin: 10px 35px 20px 0px;
+    border: 1px solid #d8a01d;
+}
+
+.page-container1{
+    display: flex;
+    justify-content: center;
+}
