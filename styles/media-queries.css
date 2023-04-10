@@ -117,8 +117,13 @@
         width: 100%;
         grid-template-columns: 1fr;
         grid-gap: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-grid-wrapper > .company-sidebar-metadata-wrapper > .logo img{
+        width: 100% !important;
+        justify-content: center;
     }
 
     .form input {
