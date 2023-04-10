@@ -20,6 +20,10 @@
         margin-top: 15px;
     }
 
+    .hero-section > .top-heading{
+        width: 270px;
+    }
+
     .links-wrapper{
         flex-direction: column;
         margin-bottom: 20px;
@@ -37,7 +41,7 @@
     }
 
     .hero-section > .top-heading{
-        font-size: 0.8em;
+        font-size: 0.65em;
     }
 
     .hero-section > .bottom-heading{
@@ -97,12 +101,23 @@
         order: 1;
     }
 
+    .square > .square-text-wrapper h1{
+        font-size: 26px;
+    }
+
+    .square > .square-text-wrapper > ul > li{
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20px;
+    }
+
     .contact-grid-wrapper{
         width: 100%;
         grid-template-columns: 1fr;
         grid-gap: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .form input {
@@ -134,6 +149,13 @@
     .nav-wrapper > .right-column{
         order: 2;
         margin-top: 15px;
+    }
+
+    .links-wrapper > .nav-link{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.4em;
+        width: 100%;
     }
 
     .features-section{
